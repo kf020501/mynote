@@ -1,0 +1,17 @@
+{
+    "terminal.integrated.scrollback": 100000,
+    "workbench.colorTheme": "Solarized Light",
+    "editor.rulers": [
+        80,
+        120
+    ],
+    "bookmarks.saveBookmarksInProject": true,
+    "pasteImage.namePrefix": "img_",
+    "pasteImage.path": "${currentFileDir}/${currentFileNameWithoutExt}",
+    "window.title": "${rootName}${separator}${dirty}${activeEditorShort}${separator}${profileName}${separator}${appName}",
+    "editor.fontFamily": "'Cascadia Next JP', 'BIZ UDゴシック', Consolas, 'Courier New', monospace",
+    "markdown.copyFiles.destination": {
+        "*": "images/${documentBaseName}/${unixTime}.${fileExtName}"
+    },
+    "workbench.tree.indent": 12,
+}
